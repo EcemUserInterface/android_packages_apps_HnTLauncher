@@ -174,7 +174,7 @@ public class AllAppsTransitionController implements TouchController, VerticalPul
     }
 
     public void setColor(int color) {
-        mAllAppsBackgroundColor = color;
+        mAllAppsBackgroundColor = ColorUtils.setAlphaComponent(color,191);
     }
 
     @Override
