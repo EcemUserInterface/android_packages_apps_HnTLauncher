@@ -30,9 +30,9 @@ android {
     }
 
     productFlavors {
-        hntlauncher {
-            applicationId 'com.android.hntlauncher'
-            testApplicationId 'com.android.hntlauncher.tests'
+        aosp {
+            applicationId 'com.android.launcher3'
+            testApplicationId 'com.android.launcher3.tests'
         }
     }
     sourceSets {
@@ -48,7 +48,7 @@ android {
             manifest.srcFile "tests/AndroidManifest.xml"
         }
 
-        hntlauncher {
+        aosp {
             manifest.srcFile "AndroidManifest.xml"
         }
     }

@@ -23,10 +23,8 @@ LOCAL_SRC_FILES := $(call all-java-files-under, src)
 
 LOCAL_SDK_VERSION := current
 
-LOCAL_PACKAGE_NAME := HnTLauncherTests
+LOCAL_PACKAGE_NAME := Launcher3Tests
 
-LOCAL_AAPT_FLAGS += --rename-manifest-package com.android.hntlauncher.tests
-
-LOCAL_INSTRUMENTATION_FOR := HnTLauncher
+LOCAL_INSTRUMENTATION_FOR := Launcher3
 
 include $(BUILD_PACKAGE)
